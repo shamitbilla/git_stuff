@@ -7,6 +7,12 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
+def divide(a, b):
+    if(b != 0):
+        return a / b
+    
+    return "Can't divide by 0"
+
 
 def calculator():
     print("Simple Python Calculator")
